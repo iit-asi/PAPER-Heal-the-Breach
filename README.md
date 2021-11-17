@@ -17,4 +17,4 @@ This is software to be installed in a webserver (php is requiered) to simulate t
 **owa_random**<br>
 This is software to be installed in a webserver. This is the same as owa folder but implementing HTB protection<br>
 gzip-randomizer may need to be recompiled (the binary provided is for Linux/Intel) using command:<br>
-gcc -o gzip-randomizer gzip-randomizer.c
+`gcc -o gzip-randomizer gzip-randomizer.c`
