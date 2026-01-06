@@ -18,3 +18,7 @@ This is software to be installed in a webserver (php is requiered) to simulate t
 This is software to be installed in a webserver. This is the same as owa folder but implementing HTB protection<br>
 gzip-randomizer may need to be recompiled (the binary provided is for Linux/Intel) using command:<br>
 `gcc -o gzip-randomizer gzip-randomizer.c`
+
+**BREACH_TOTAL_Original.py**<br>
+This a python implementation of a BREACH attack.<br>
+This program was created to test the HTB mitigation. Running agaist unprotected owa it can retrieve the secret token, but running against owa_random it's impossible.
